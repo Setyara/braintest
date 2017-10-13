@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 250px;
+    height: 220px;
     background: rgba(255, 135, 153, 1);
 }
 .headerAll {
@@ -25,42 +25,67 @@
     padding: 30px 60px 0 0;
 }
 .headerLogo {
-    width: 200px;
     float: left;
-
-    padding: 20px 30px 0 70px;
+    padding: 10px;
+    margin-left: 50px;
+}
+.headerLogo p {
+    padding: 0;
+    margin: 0 0 0 -15px;
+}
+.headerLogo img {
+    width: 100px;
 }
 .headerNav {
     width: 500px;
     float: right;
     text-align: right;
-    padding: 0 20px 0 0;
+    padding: 80px 30px 0 0;
+}
+.headerNav ul li {
+    display: inline-block;
+    padding: 0 25px;
+    display: inline-block;
+}
+.headerNav ul li a {
+    text-decoration: none;
 }
 .bodyPost {
     background: #d8d1d0	;
-    width: 75%;
+    width: 960px;
     height: 750px;
-    margin: 0 0 0 150px;
-
+    margin: 0 auto;
+    padding: 10px 0 10px 10px;
 }
 .postBlock {
     background: #c1bbba;
-    width: 60%;
+    width: 580px;
     height: 450px;
-    padding: 20px;
+    padding: 10px;
+    float: left;
 }
 .postTitle {
     background: #8c8786;
 
 }
-.postTit {
+.postTxt {
     text-align: left;
 }
 .postData {
     text-align: right;
 }
 .bodyLogo img {
-    width: 200px;
+    width: 150px;
     float: left;
-    padding: 100px 30px 0 70px;
+    padding: 10px;
+}
+.bodyNav {
+    background: #4286f4;
+    width: 300px;
+    height: 450px;
+    float: right;
+    margin-top: -10px;
+}
+.bodyNav p{
+    text-align: center;
 }
