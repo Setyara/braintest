@@ -132,6 +132,8 @@
 }
 .search {
     float: right;
+    margin: 0 10px 70px 0;
+    padding: 0 10px 30px 0;
 }
 .footer {
     background: #2856e0;
