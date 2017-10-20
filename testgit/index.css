@@ -89,16 +89,10 @@ table {
 }
 .headerLogo img {
     width: 100px;
-    -moz-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
 }
 .headerLogo img:hover {
-    -o-transform: rotate(720deg);
-    -ms-transform: rotate(720deg);
-    -moz-transform: rotate(720deg);
     -webkit-transform: rotate(720deg);
-    transform: rotate(720deg);
 }
 .headerNav {
     width: 500px;
@@ -142,6 +136,9 @@ table {
     width: 150px;
     float: left;
     padding: 10px;
+}
+.bodyLogo img:hover {
+    -webkit-transform: scaleX(-1);
 }
 .bodyNav {
     background: #4286f4;
