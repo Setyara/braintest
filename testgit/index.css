@@ -229,3 +229,6 @@ table {
     font-size: 30px;
     font-weight: bold;
 }
+.flexContainer .item:hover {
+    -webkit-transform: translateX(20px);
+}
