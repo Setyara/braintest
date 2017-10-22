@@ -50,10 +50,18 @@ table {
 a {
     text-decoration: none;
 }
+html {
+    min-height: 100%;
+    height: 100%;
+}
 
 body {
     background-color: #a8a2a2;
     font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    height: 100%;
+
+
 }
 .headerTop {
     padding: 10px 15px;
@@ -108,4 +116,28 @@ body {
 .header .headerNav a:hover {
     background-color: #fff;
     color: black;
+}
+.container {
+    padding: 0 15px;
+    background-color: #a88a9e;
+}
+.container .wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #b9bab8;
+}
+.container .acticleSidebarRow {
+    padding: 15px;
+    background-color: #ff8580;
+}
+.container .article {
+    padding: 10px;
+    background-color: #f069dd;
+}
+.container .article .title {
+    font-size: 18px;
+}
+.container .acticleSidebarRow .sidebarNav {
+    padding: 10px;
+    
 }
